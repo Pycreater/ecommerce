@@ -8,14 +8,14 @@ export default function Home() {
     <div className="overflow-x-hidden bg-[#18181B]">
       <BackgroundBeams />
       <div className="bg-[#18181B] p-1 flex rounded-xl">
-        <div className="p-5 text-white ">
+        <div className="p-5 bg-black text-white ">
           <Navbar />
         </div>
       </div>
-      <div className="mb-0 p-4 m-4 w-screen">
+      <div className="mb-0 w-[80%]">
         <Header />
       </div>
-      <div className="w-screen">
+      <div className="w-screen mt-1">
         <Hero1 />
       </div>
     </div>
