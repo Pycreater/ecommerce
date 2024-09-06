@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import React, { useMemo, useRef, useCallback } from "react";
 import * as THREE from "three";
 
@@ -202,8 +202,8 @@ const ShaderMaterial = ({
     timeLocation.value = timestamp;
   });
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const getUniforms = useCallback(() => {
+    // eslint-disable-next-line
     const preparedUniforms: { [key: string]: any } = {};
 
     for (const uniformName in uniforms) {
