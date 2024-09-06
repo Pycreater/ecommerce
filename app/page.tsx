@@ -15,7 +15,7 @@ export default function Home() {
       <div className="mb-0 w-[80%]">
         <Header />
       </div>
-      <div className="w-screen mt-1">
+      <div className="w-screen mt-8 sm:mt-10 md:mt-20 ">
         <Hero1 />
       </div>
     </div>

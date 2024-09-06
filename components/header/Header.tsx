@@ -11,12 +11,12 @@ const Header = () => {
     "Unleash Your Confidence",
     "Find Your Perfect Look",
     "Style That Speaks",
-    "Discover Timeless Fashion",
+    // "Discover Timeless Fashion",
   ];
 
   return (
     <div className="w-screen">
-      <CardSpotlight className="text-white flex justify-center items-center font-bold text-5xl font-mono h-[350px] rounded-3xl w-[90%] m-auto">
+      <CardSpotlight className="text-white flex justify-center items-center font-bold text-3xl sm:text-4xl md:text-5xl font-mono h-[300px] sm:h-[350px] rounded-3xl w-[90%] m-auto p-4">
         Discover Your Style,{" "}
         <FlipWords
           words={flipWords}
