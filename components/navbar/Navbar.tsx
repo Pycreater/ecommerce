@@ -44,7 +44,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false); // State to manage mobile menu
 
   return (
-    <nav className="bg-[#F4F4F5] shadow-md fixed w-full z-10 top-0 left-0">
+    <nav className="bg-[#F4F4F5] shadow-md fixed w-full z-10 top-0 left-0 flex rounded-b-xl">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div

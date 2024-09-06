@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Hero1 from "@/components/hero/Hero1";
 import Navbar from "@/components/navbar/Navbar";
@@ -8,7 +9,7 @@ export default function Home() {
     <div className="overflow-x-hidden bg-[#18181B]">
       <BackgroundBeams />
       <div className="bg-[#18181B] p-1 flex rounded-xl">
-        <div className="p-5 bg-black text-white ">
+        <div className="p-5 bg-black text-white">
           <Navbar />
         </div>
       </div>
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <div className="w-screen mt-8 sm:mt-10 md:mt-20 ">
         <Hero1 />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
