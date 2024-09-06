@@ -12,5 +12,5 @@ const Hero1 = () => {
     </ContainerScroll>
   );
 };
-// sm:mt-10 // md:mt-20
+
 export default Hero1;
